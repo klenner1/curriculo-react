@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/curriculo-react/static/css/main.8a3eb3c7.chunk.css",
+    "main.js": "/curriculo-react/static/js/main.2b01317f.chunk.js",
+    "main.js.map": "/curriculo-react/static/js/main.2b01317f.chunk.js.map",
+    "runtime-main.js": "/curriculo-react/static/js/runtime-main.5cbf7b3d.js",
+    "runtime-main.js.map": "/curriculo-react/static/js/runtime-main.5cbf7b3d.js.map",
+    "static/js/2.74357217.chunk.js": "/curriculo-react/static/js/2.74357217.chunk.js",
+    "static/js/2.74357217.chunk.js.map": "/curriculo-react/static/js/2.74357217.chunk.js.map",
+    "static/js/3.bc839c5c.chunk.js": "/curriculo-react/static/js/3.bc839c5c.chunk.js",
+    "static/js/3.bc839c5c.chunk.js.map": "/curriculo-react/static/js/3.bc839c5c.chunk.js.map",
+    "index.html": "/curriculo-react/index.html",
+    "static/css/main.8a3eb3c7.chunk.css.map": "/curriculo-react/static/css/main.8a3eb3c7.chunk.css.map",
+    "static/js/2.74357217.chunk.js.LICENSE.txt": "/curriculo-react/static/js/2.74357217.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/curriculo-react/static/media/app-background.c8a58949.jpg",
+    "static/media/ic-github.708db645.svg": "/curriculo-react/static/media/ic-github.708db645.svg",
+    "static/media/ic-linkedin.7ee18c4b.svg": "/curriculo-react/static/media/ic-linkedin.7ee18c4b.svg",
+    "static/media/ic-mail.c726db30.svg": "/curriculo-react/static/media/ic-mail.c726db30.svg",
+    "static/media/ic-phone.828042e3.svg": "/curriculo-react/static/media/ic-phone.828042e3.svg",
+    "static/media/ic-place.a6d83240.svg": "/curriculo-react/static/media/ic-place.a6d83240.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cbf7b3d.js",
+    "static/js/2.74357217.chunk.js",
+    "static/css/main.8a3eb3c7.chunk.css",
+    "static/js/main.2b01317f.chunk.js"
+  ]
+}
