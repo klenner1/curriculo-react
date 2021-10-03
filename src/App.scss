@@ -1,0 +1,109 @@
+@import './style/global';
+
+.app {
+  color: #fff;
+  background-image: linear-gradient(90deg, $backgoundcolor 30.73%, rgba(0, 0, 0, 0.25) 100%), url('assets/app-background.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+
+  header {
+    height: 54px;
+  }
+
+  section:first-child {
+    padding: 48px;
+  }
+
+  section:not(:first-child) {
+    >div {
+      max-width: 980px;
+      width: 100%;
+    }
+
+    padding: 0 0 0 10px;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+small {
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+small {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #00000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+
+  &:hover {
+    background: #555;
+  }
+}
+
+
+.color {
+  &-primary {
+    color: $primary;
+  }
+
+  &-secondary {
+    color: $secondary;
+  }
+
+  &-gray {
+    color: $gray;
+  }
+}

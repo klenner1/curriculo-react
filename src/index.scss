@@ -1,0 +1,101 @@
+html {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  width: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Flex */
+[class*="flex-"] {
+  display: flex;
+}
+
+@for $i from 1 through 5 {
+  &.gap-#{$i * 8} {
+    gap: $i * 8px;
+  }
+}
+
+@for $i from 1 through 3 {
+  &.flex-#{$i} {
+    flex: $i;
+  }
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-flex-start {
+  align-items: flex-start;
+}
+
+.align-flex-end {
+  align-items: flex-end;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+$aligns: center,
+flex-end,
+flex-start,
+stretch;
+
+@each $align in $aligns {
+  .align-#{$align} {
+    align-items: $align;
+  }
+}
+
+$justifys: center,
+flex-end,
+flex-start,
+space-around,
+space-between,
+space-evenly;
+
+@each $justify in $justifys {
+  .justify-#{$justify} {
+    justify-content: $justify;
+  }
+}
+
+
+
+.wrap {
+  flex-wrap: wrap;
+}
